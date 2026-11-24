@@ -22,6 +22,8 @@ TIP = (
     "Neither of you will admit it."
 )
 
+assert 1 <= len(TIP) <= 200, "a loading-screen tip must fit in 200 characters"
+
 
 def main() -> None:
     path = Path("/output/entry.txt")
